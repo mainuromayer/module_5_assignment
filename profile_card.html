@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mainur Rahaman | Profile Card </title>
+</head>
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+    }
+    .card {
+        max-width: 408px;
+        width: 100%;
+        min-height: 408px;
+        height: auto;
+        padding: 50px;
+        margin: 5px;
+        background-color: #0E0E0E;
+        color: #fff;
+        border-radius: 30px;
+    }
+    .image {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .image img {
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+        border-radius: 100px;
+    }
+    .email, .phone {
+        text-align: center;
+    }
+    .name {
+        text-align: center;
+        font-weight: 700;
+        line-height: 0.7;
+        font-size: 32px;
+        padding-top: 15px;
+    }
+    .occupation {
+        text-align: center;
+        line-height: 0;font-weight: 500;
+    }
+
+    .short_description {
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 100;
+        letter-spacing: 0.068em;
+        font-size: 14px;
+        padding-top: 9px;
+        color: #eee;
+    }
+
+    .email {
+        padding-top: 10px;
+    }
+
+    .email span:nth-child(2){
+        line-height: 2;
+    }
+</style>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="./profile.png" alt="profile photo">
+        </div>
+        <h1 class="name">Mainur Rahaman</h1>
+        <h4 class="occupation">Web Application Developer</h4>
+        <p class="short_description">Passionate web developer with a desire to learn and grow in a collaborative team environment. I work hard and care about writing clean code. Having positive outlook and always willing to learn new traits. I have a pretty good knowledge about raw PHP and vanilla JavaScript.</p>
+        <div class="email">
+            <span>Email: </span>
+            <span>mainuromayer@gmail.com</span>
+        </div>
+        <div class="phone">
+            <span>Phone: </span>
+            <span>01881-157792</span>
+        </div>
+    </div>
+</body>
+
+</html>
